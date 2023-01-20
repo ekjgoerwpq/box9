@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="stage" >
+<p class="spinner"> <a  class="k" href="#">Выбери! До конца месяца суперскидки _50%!!!</a></p>
+</div>
+
+</body> 
+</html>

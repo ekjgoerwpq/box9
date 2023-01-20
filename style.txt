@@ -1,0 +1,33 @@
+.spinner {
+
+   background: rgba(0,0,0,0.5);
+   text-align: center;
+
+  
+  
+    animation-name: spinner;
+    animation-timing-function: linear; /* задание типа движения - равномерное */
+    animation-iteration-count: infinite; /* задание повторений движения */
+    animation-duration: 6s; /* задание продолжительности движения */
+   
+    transform-style: preserve-3d;
+  }
+
+.spinner:hover {
+   
+    animation-play-state: paused;
+  }
+
+@keyframes spinner {
+  100% {transform:  rotateY(-360deg);}
+  }
+.stage {
+background: rgba(0,0,0,0.5);  
+  color: #FF43A4;
+}
+
+.k {
+  color: #FFFFFF;
+  
+  
+}
